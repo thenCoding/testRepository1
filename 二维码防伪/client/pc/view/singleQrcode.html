@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<link rel="stylesheet" href="../css/singleQrcode.css">
+<body>
+<div class="header">
+    <a href="../view/index.html">
+    <div>
+        <span class="headImageIcon1"></span>
+        <span class="headImageIcon2"></span>
+        <span class="headImageIcon3"></span>
+        <span class="headImageIcon4"></span>
+    </div>
+    </a>
+    <a href="../view/batchQrCode.html"><div class="batchQrcode"></div></a>
+    <a href="../view/query.html"><div class="headerRight"></div></a>
+</div>
+<div class="content">
+    <div class="enterSerialNumber">请输入序列号</div>
+    <div class="inputProductNumber">
+        <span class="leo">LE</span>
+        <input type="text" maxlength="6" class="productNumber" placeholder="产品型号">
+        <input type="text" maxlength="4" class="factoryYears" placeholder="生产日期">
+        <input type="text" maxlength="5" class="totalProductionNumber"  placeholder="产品数量">
+    </div>
+    <div class="prompt">请输入十五位产品序列号</div>
+    <div id="qrCode" class="qrCode"></div>
+    <div id="qrCodeImg"></div>
+    <div class="buttons">
+        <div class="cancel">取消</div>
+        <div class="determine">确定</div>
+    </div>
+</div>
+<div class="footer"></div>
+</body>
+<script type="text/javascript" src="../js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="../js/jquery.qrcode.min.js"></script>
+<script type="text/javascript" src="../js/html2canvas.js"></script>
+<script type="text/javascript" src="../js/singleQrcode.js"></script>
+</html>

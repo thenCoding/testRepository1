@@ -1,0 +1,80 @@
+#scanningButton {
+    background-color: #63CAD1;
+    color: #fff;
+    margin-top: 80px;
+}
+
+.dividing-line-wrapper {
+    margin-top: 10px;
+    /*margin-bottom: 5px;*/
+}
+#IndexcheckResultDialog{
+    background-image: url("../img/theme-bg.jpg");
+    background-position: center;
+    background-size: contain;
+}
+#netTypeModal{
+    background-image: url("../img/theme-bg.jpg");
+    background-position: center;
+    background-size: contain;
+}
+#checkResultDialog{
+    background-image: url("../img/theme-bg.jpg");
+    background-position: center;
+    background-size: contain;
+}
+.dividing-line {
+    height: 1px;
+    background-color: #63CAD1;
+}
+
+.or {
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+    color: #00d6b2;
+    font-weight: bold;
+}
+
+#enter-qrcode {
+    background-color: #63CAD1;
+    color: #fff;
+}
+
+.index-bg {
+    margin: 10% auto 0;
+    -webkit-border-radius: 300px;
+    -moz-border-radius: 300px;
+    border-radius: 300px;
+    background-image: url("../img/index-bg.png");
+    background-position: center;
+    background-size: contain;
+}
+
+#verifyResultContent {
+    margin-top: 30%;
+    background-color: #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;;
+}
+
+#veyifyInfo {
+    text-shadow: none;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+}
+
+#verifyResultPageButton {
+    color: #398390;
+}
+
+#verifyResultPage {
+    padding-left: 30px;
+    padding-right: 30px;
+    background-image: url("../img/theme-bg.jpg");
+    background-size: contain;
+    background-position: center;
+}

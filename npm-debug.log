@@ -1,0 +1,54 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'E:\\nodejs\\\\node.exe',
+1 verbose cli   'E:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'angular' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose install initial load of C:\Users\Administrator\Desktop\二维码防伪 (2)\package.json
+5 verbose installManyTop reading scoped package data from C:\Users\Administrator\Desktop\二维码防伪 (2)\node_modules\grunt\package.json
+6 info package.json grunt@0.4.5 No license field.
+7 verbose readDependencies loading dependencies from C:\Users\Administrator\Desktop\二维码防伪 (2)\package.json
+8 silly cache add args [ 'angular', null ]
+9 verbose cache add spec angular
+10 silly cache add parsed spec { raw: 'angular',
+10 silly cache add   scope: null,
+10 silly cache add   name: 'angular',
+10 silly cache add   rawSpec: '',
+10 silly cache add   spec: '*',
+10 silly cache add   type: 'range' }
+11 silly addNamed angular@*
+12 verbose addNamed "*" is a valid semver range for angular
+13 silly addNameRange { name: 'angular', range: '*', hasData: false }
+14 silly mapToRegistry name angular
+15 silly mapToRegistry using default registry
+16 silly mapToRegistry registry https://registry.npmjs.org/
+17 silly mapToRegistry uri https://registry.npmjs.org/angular
+18 verbose addNameRange registry:https://registry.npmjs.org/angular not in flight; fetching
+19 verbose request uri https://registry.npmjs.org/angular
+20 verbose request no auth needed
+21 info attempt registry request try #1 at 14:04:30
+22 verbose request id 4377d8731a8af7b0
+23 http request GET https://registry.npmjs.org/angular
+24 info retry will retry, error on last attempt: Error: getaddrinfo EAI_AGAIN
+25 info attempt registry request try #2 at 14:04:52
+26 http request GET https://registry.npmjs.org/angular
+27 info retry will retry, error on last attempt: Error: getaddrinfo EAI_AGAIN
+28 info attempt registry request try #3 at 14:06:03
+29 http request GET https://registry.npmjs.org/angular
+30 verbose stack Error: getaddrinfo EAI_AGAIN
+30 verbose stack     at Object.exports._errnoException (util.js:746:11)
+30 verbose stack     at errnoException (dns.js:49:15)
+30 verbose stack     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:94:26)
+31 verbose cwd C:\Users\Administrator\Desktop\二维码防伪 (2)
+32 error Windows_NT 6.3.9600
+33 error argv "E:\\nodejs\\\\node.exe" "E:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "angular"
+34 error node v0.12.7
+35 error npm  v2.11.3
+36 error code EAI_AGAIN
+37 error errno EAI_AGAIN
+38 error syscall getaddrinfo
+39 error getaddrinfo EAI_AGAIN
+40 error If you need help, you may report this error at:
+40 error     <https://github.com/npm/npm/issues>
+41 verbose exit [ 1, true ]

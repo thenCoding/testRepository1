@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<link rel="stylesheet" href="../css/query.css">
+<link rel="stylesheet" href="../css/bootstrap.css">
+<link rel="stylesheet" href="../css/pagination.css">
+<body>
+<div class="header">
+    <a href="../view/index.html">
+        <div>
+            <span class="headImageIcon1"></span>
+            <span class="headImageIcon2"></span>
+            <span class="headImageIcon3"></span>
+            <span class="headImageIcon4"></span>
+        </div>
+    </a>
+    <a href="../view/batchQrCode.html">
+        <div class="batchQrcode"></div>
+    </a>
+    <a href="../view/singleQrcode.html">
+        <div class="headerRight"></div>
+    </a>
+</div>
+<div class="content">
+    <div class="inputProductNumber">
+        <span class="leo">LE</span>
+        <input type="text" class="productNumber"  placeholder="产品型号">
+        <input type="text" class="factoryYears"   placeholder="生产日期">
+        <input type="text" class="totalProductionNumber"  placeholder="产品数量">
+    </div>
+    <div class="queryButton">查询</div>
+    <div class="cancelButton">取消查询</div>
+</div>
+<div class="footer">
+    <div class="footerHead">
+        <div class="productNumbers">产品型号<span>∨</span></div>
+        <div class="productSerialNumber">产品序列号<span>∨</span></div>
+        <div class="status">状态<span>∨</span></div>
+        <div class="verifyNumber">验证次数</div>
+        <div class="verifyDetail">验证详情</div>
+    </div>
+    <div id="footerTable">
+        <ul class="footerTableUl">
+            <li ></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li class="currentLi"></li>
+        </ul>
+        <ul class="footerTableUl">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li class="currentLi"></li>
+        </ul>
+        <ul class="footerTableUl">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li class="currentLi"></li>
+        </ul>
+        <ul class="footerTableUl">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li class="currentLi"></li>
+        </ul>
+        <ul class="footerTableUl">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li class="currentLi"></li>
+        </ul>
+        <ul class="footerTableUl">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li class="currentLi"></li>
+        </ul>
+        <ul class="footerTableUl">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li class="currentLi"></li>
+        </ul>
+        <ul class="footerTableUl">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li class="currentLi"></li>
+        </ul>
+        <ul class="footerTableUl">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li class="currentLi"></li>
+        </ul>
+    </div>
+    <div id="example" style="float:left"></div>
+    <div id="Pagination" class="right flickr"></div>
+    <div id="queryPagination" class="right flickr"></div>
+</div>
+
+<!-- 模态弹出窗 -->
+<div class="modal fade" id="mymodal">
+    <div class="modal-dialog">
+        <div class="footerModal">
+            <div class="footerHead">
+                <div class="productNumbers">产品型号</div>
+                <div class="productSerialNumber">产品序列号</div>
+                <div class="status">验证次数</div>
+                <div class="verifyNumber">验证时间</div>
+                <div class="verifyDetail">验证地点</div>
+            </div>
+            <div id="modalFooterTable">
+
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script type="text/javascript" src="../js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="../js/jquery.qrcode.min.js"></script>
+<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../js/bootstrap-paginator.js"></script>
+<script type="text/javascript" src="../js/jquery.pagination.js"></script>
+<script type="text/javascript" src="../js/query.js"></script>
+</html>

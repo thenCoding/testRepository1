@@ -1,0 +1,152 @@
+* {
+    margin: 0px auto;
+    padding:0px;
+    font-family: '微软雅黑';
+}
+
+body {
+    background-image: url("../image/background.png");
+    background-size: cover;
+}
+
+.header {
+    height: 150px;
+    width: 100%;
+}
+
+.headerRight {
+    background-image: url('../image/leonewsprite.png');
+    background-position: -304px -151px;
+    width: 143px;
+    height: 35px;
+    float: right;
+    position: relative;
+    right: 20px;
+    top: -15px;
+    margin-right: 20px;
+}
+.batchQrcode{
+    background-image: url('../image/leonewsprite.png');
+    background-position: -469px -152px;
+    width: 143px;
+    height: 35px;
+    float: right;
+    position: relative;
+    right: 20px;
+    top: -15px;
+}
+.headerRight:hover,.batchQrcode:hover{
+    cursor: pointer;
+}
+
+.headImageIcon1 {
+    background-image: url('../image/leonewsprite.png');
+    background-position: -42px -41px;
+    width: 113px;
+    height: 70px;
+    display: inline-block;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+.headImageIcon2 {
+    background-image: url('../image/leonewsprite.png');
+    background-position: -176px -80px;
+    width: 1px;
+    height: 25px;
+    display: inline-block;
+    position: relative;
+    left: 30px;
+    top: 20px;
+}
+
+.headImageIcon3 {
+    background-image: url('../image/leonewsprite.png');
+    background-position: -198px -80px;
+    width: 116px;
+    height: 37px;
+    display: inline-block;
+    position: relative;
+    left: 35px;
+    top: 26px;
+}
+
+.headImageIcon4 {
+    background-image: url('../image/leonewsprite.png');
+    background-position: -327px -90px;
+    width: 102px;
+    height: 21px;
+    display: inline-block;
+    position: relative;
+    left: 40px;
+    top: 24px;
+}
+
+.enterSerialNumber {
+    font-size: 26px;
+    color: #194088;
+    letter-spacing: 7px;
+}
+
+.content {
+    width: 100%;
+    height: 50%;
+    text-align: center;
+}
+
+.productNumber, .factoryYears, .totalProductionNumber {
+    background: rgba(0, 0, 0, 0);
+    border: 2px solid white;
+    border-radius: 40px;
+    text-align: center;
+    height: 40px;
+    margin-top: 30px;
+    outline: none;
+}
+
+.prompt {
+    font-size: 14px;
+    color: #8B8B8C;
+    margin-top: 15px;
+}
+
+#qrCode {
+    margin-top: 30px;
+}
+.cancel,.determine{
+    width: 139px;
+    height: 48px;
+    border:1px solid #FA645C;
+    float:left;
+    line-height: 48px;
+    text-align: center;
+    color:grey;
+}
+.cancel{
+    color:grey;
+    border-radius: 24px 0 0 24px;
+}
+.determine {
+    color:#FA645C;
+    border-radius: 0 24px 24px 0;
+}
+.cancel:hover,.determine:hover{
+    background: #FA645C;
+    color:white;
+    cursor: pointer;
+}
+.buttons{
+    width:282px;
+    height:50px;
+}
+.leo{
+    font-size:21px;
+    color:grey;
+    position: relative;
+    right:21px;
+    top: 3px;
+}
+#qrCode{
+    margin-bottom:30px;
+}
